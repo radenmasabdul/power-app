@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Power App</title>
-    <link rel="icon" type="image/png" href="/assets/fav-icon.png">
+    <link rel="icon" type="image/png" href="assets/fav-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,7 +13,57 @@
   </head>
 
   <body>
-  
+    <nav class="navbar">
+      <div class="container">
+        <img src="assets/image-logo.svg" alt="image-logo" />
+    
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
+    
+        <button class="menu-toggle" id="button-menu-toggle">
+          <img src="assets/icon-hamburger.svg" alt="icon-hamburger" />
+        </button>
+      </div>
+    </nav>
+
+    <main class="main">
+      <section class="hero" id="home">
+        <div class="hero-left">
+          <h1>
+            We Design Impactful
+            <br>
+          
+            <span class="hero-highlight">
+              Digital
+              <img src="assets/image-product.svg" alt="icon" />
+            </span>
+          </h1>
+    
+          <p class="hero-desc">
+            Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services.
+          </p>
+    
+          <div class="hero-buttons">
+            <button class="btn-primary">Contact Us</button>
+
+            <button class="btn-secondary">
+              <span>
+                <img src="assets/icon-button-play.svg" alt="icon-play" />
+              </span>
+              <p class="">Watch our introduction video</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img src="assets/image-hero.png" alt="hero image" />
+        </div>
+      </section>
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="script.js"></script>
