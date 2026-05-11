@@ -332,6 +332,104 @@ body {
   color: #2E3E5C;
 }
 
+.service-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0 0;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.service-wrapper h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: auto;
+  color: #03014C;
+  text-align: center;
+}
+
+.service-wrapper-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 40px 0 40px 0;
+}
+
+.service-wrapper-center p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: auto;
+  color: #03014C;
+  max-width: 680px;
+  text-align: center;
+  text-wrap: pretty;
+  margin: 40px auto;
+}
+
+.service-wrapper-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+  gap: 60px;
+}
+
+.service-wrapper-images img {
+  object-fit: contain;
+}
+
+.service-wrapper-images-03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.service-wrapper-images-03 h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: auto;
+  color: #1E1F4B;
+  padding-top: 10px;
+}
+
+.service-wrapper-images-03 p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: medium;
+  line-height: auto;
+  color: #2E3E5C;
+  margin: 0;
+}
+
+.service-wrapper-images-03 img {
+  border: 2px solid #706FE5;
+  border-radius: 100px;
+  padding: 2px;
+}
+
+.icon-dot-01 {
+  max-width: max-content;
+  max-height: max-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon-dot-02 {
+  max-width: max-content;
+  max-height: max-content;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 @media (max-width: 768px) {
   .container {
     justify-content: space-between;
@@ -470,5 +568,36 @@ body {
   .wrapper-image-right h1 {
     font-size: 16px;
     line-height: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-wrapper-images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .service-wrapper-images img {
+    width: 50px;
+    height: auto;
+  }
+
+  .service-wrapper-images-03 {
+    margin-top: 0;
+  }
+
+  .service-wrapper-images-03 h1 {
+    display: none;
+  }
+
+  .service-wrapper-images-03 p {
+    display: none;
+  }
+
+  .icon-dot-01,
+  .icon-dot-02 {
+    display: none;
   }
 }
