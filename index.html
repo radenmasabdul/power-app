@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Power App</title>
-    <link rel="icon" type="image/png" href="/assets/fav-icon.png">
+    <link rel="icon" type="image/png" href="assets/fav-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,9 +13,245 @@
   </head>
 
   <body>
-  
+    <nav class="navbar">
+      <div class="container">
+        <img src="assets/image-logo.svg" alt="image-logo" />
+    
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#products">Products</a></li>
+        </ul>
+    
+        <button class="menu-toggle" id="button-menu-toggle">
+          <img src="assets/icon-hamburger.svg" alt="icon-hamburger" />
+        </button>
+      </div>
+    </nav>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <main class="main">
+      <section class="hero" id="home">
+        <div class="hero-left">
+          <h1>
+            We Design Impactful
+            <br>
+          
+            <span class="hero-highlight">
+              Digital
+              <img src="assets/image-product.svg" alt="icon" />
+            </span>
+          </h1>
+    
+          <p class="hero-desc">
+            Help find solutions with intitutive and in accordance with client business goals. we provide a high-quality services.
+          </p>
+    
+          <div class="hero-buttons">
+            <button class="btn-primary">Contact Us</button>
+
+            <button class="btn-secondary">
+              <span>
+                <img src="assets/icon-button-play.svg" alt="icon-play" />
+              </span>
+              <p class="">Watch our introduction video</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img src="assets/image-hero.png" alt="hero image" />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="wrapper">
+          <h1>Trusted by greatest companies</h1>
+
+          <div class="images">
+            <img src="/assets/logo-google.svg" alt="logo-google"/>
+            <img src="/assets/logo-bnb.svg" alt="logo-bnb"/>
+            <img src="/assets/logo-creative.svg" alt="logo-creative"/>
+            <img src="/assets/logo-shopify.svg" alt="logo-shopify"/>
+            <img src="/assets/logo-amazon.svg" alt="logo-amazon"/>
+          </div>
+        </div>
+
+        <div class="content-wrapper">
+          <div class="wrapper-up">
+            <h1>We create world-class digital products</h1>
+            <p>By information about design the world to the best instructors, heatc helping By information</p>
+          </div>
+
+          <div class="wrapper-down">
+            <div class="wrapper-section">
+              <div class="wrapper-image-left">
+                <img src="/assets/image-product-01.png" alt="image-product-01" />
+                <p>App Design - June 20, 2022</p>
+                <h1>App Redesign</h1>
+                <p>By information about design the world to the best instructors, heatc helping By information about design the world to 
+                  the best instructors, heatc helping
+                </p>
+              </div>
+              <div class="wrapper-image-right">
+                <div>
+                  <img src="assets/image-product-02.png" alt="image-product-02" />
+                  <p>App Design - June 20, 2022</p>
+                  <h1>Redesign channel website landng page</h1>
+                </div>
+
+                <div>
+                  <img src="assets/image-product-03.png" alt="image-product-03" />
+                  <p>App Design - June 20, 2022</p>
+                  <h1>New Locator App For a New Company</h1>
+                </div>
+
+                <div>
+                  <img src="assets/image-product-04.png" alt="image-product-04" />
+                  <p>App Design - June 20, 2022</p>
+                  <h1>Rental Rooms Web App Platform</h1>
+                </div>
+                
+                
+                <div>
+                  <img src="assets/image-product-05.png" alt="image-product-05" />
+                  <p>App Design - June 20, 2022</p>
+                  <h1>Calendar App for Big SASS Company</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="service-wrapper">
+          <img src="assets/icon-dot.svg" alt="icon-dot" class="icon-dot-01"/>
+          <h1>Let's hear <br>
+          What they says
+          </h1>
+
+          <div class="service-wrapper-center">
+            <img src="assets/icon-quote-left.svg" alt="quote-left" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vel lobortis tincidunt
+              fames quisque mauris at diam. Nullam morbi ipsum turpis amet id posuere torto
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+            </p>
+            <img src="assets/icon-quote-right.svg" alt="quote-left" />
+          </div>
+          
+
+          <div class="service-wrapper-images">
+            <img src="assets/image-profile-01.svg" alt="profile-01" />
+            <img src="assets/image-profile-02.svg" alt="profile-02" />
+
+            <div class="service-wrapper-images-03">
+              <img src="assets/image-profile-03.svg" alt="profile-03" />
+              <h1>Ricky Aprilia</h1>
+              <p>Founder of Varibo</p>
+            </div>
+            
+            <img src="assets/image-profile-04.svg" alt="profile-04" />
+            <img src="assets/image-profile-05.svg" alt="profile-05" />
+          </div>
+          <img src="assets/icon-dot.svg" alt="icon-dot" class="icon-dot-02" />
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <div class="products-wrapper">
+          <div class="products-wrapper-content-left">
+            <h1>How we can help you</h1>
+            <p>Follow our newsletter. We will regulary update our latest project and availability.</p>
+      
+            <div class="input-subscribe">
+              <div class="input-subscribe-content">
+                <img src="assets/icon-email.svg" alt="logo-email" />
+                <input type="email" placeholder="Enter your email address" class="input-email" id="email" name="email" autocomplete="email"/>
+                <button class="button-subscribe">Subscribe</button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="products-wrapper-content-right">
+            <div class="service-card-grid">
+              <div class="service-card">
+                <img src="assets/icon-ui-ux.svg" alt="icon-ui-ux" />
+                <h3>UI/UX Design</h3>
+                <p>Sometimes features require a short description</p>
+              </div>
+      
+              <div class="service-card">
+                <img src="assets/icon-branding.svg" alt="icon-branding" />
+                <h3>Logo Branding</h3>
+                <p>Sometimes features require a short description</p>
+              </div>
+      
+              <div class="service-card">
+                <img src="assets/icon-mobile.svg" alt="icon-mobile" />
+                <h3>App Design</h3>
+                <p>Sometimes features require a short description</p>
+              </div>
+      
+              <div class="service-card">
+                <img src="assets/icon-web.svg" alt="icon-web" />
+                <h3>Website Design</h3>
+                <p>Sometimes features require a short description</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/image-logo-02.svg" alt="image-logo" />
+        </div>
+    
+        <div class="footer-socials">
+          <a class="footer-social-btn" aria-label="Instagram">
+            <img src="assets/icon-instagram.svg" alt="icon-instagram" />
+          </a>
+          <a class="footer-social-btn" aria-label="Facebook">
+            <img src="assets/icon-fb.svg" alt="icon-fb" />
+          </a>
+          <a class="footer-social-btn" aria-label="Twitter">
+            <img src="assets/icon-x.svg" alt="icon-x" />
+          </a>
+          <a class="footer-social-btn" aria-label="Github">
+            <img src="assets/icon-github.svg" alt="icon-github" />
+          </a>
+          <a class="footer-social-btn" aria-label="Instagram 2">
+            <img src="assets/icon-instagram.svg" alt="icon-instagram" />
+          </a>
+        </div>
+      </div>
+    
+      <hr class="footer-divider" />
+    
+      <div class="footer-bottom">
+        <div class="footer-nav">
+          <p class="footer-nav-title">Company</p>
+          <div class="footer-nav-links">
+            <a>About Us</a>
+            <a>Press</a>
+            <a>Investors</a>
+            <a>Events</a>
+            <a>Terms of use</a>
+            <a>Privacy policy</a>
+          </div>
+        </div>
+        <button class="btn-primary footer-contact-btn">Contact Us</button>
+      </div>
+    
+      <div class="footer-copyright">
+        <p>© power 2021 - All Rights Reserved</p>
+      </div>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
